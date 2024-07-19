@@ -1,8 +1,5 @@
 pipeline {
 	agent any
-    tools {
-        dependencyCheck 'OWASP DependencyCheck'
-    }
 	stages {
 		stage('Checkout SCM') {
 			steps {
